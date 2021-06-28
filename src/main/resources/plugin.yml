@@ -1,0 +1,14 @@
+name: RandomGameMode
+description: Set you in a random GameMode.
+api-version: 1.17
+author: DerTev
+main: de.dertev.randomgamemode.LoadUnload
+version: 1.0
+website: DerTev.de
+libraries:
+  - "net.axay:kspigot:1.17.2"
+commands:
+  randomgamemode:
+    aliases: rgm
+    description: Set you in a random GameMode.
+    permission: rgm.use
